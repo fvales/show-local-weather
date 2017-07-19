@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Show Local Weather</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+
+  <div id ="header">
+  <h1 class="text-center">Local Weather</h1>
+  <em style="float:right;">By Freeda Vales</em>
+    </div>
+  <p id="msg"></p>
+
+  <h2 id="location"></h2>
+
+  <h3 id="description" style="opacity:0.6;"></h3>
+  
+  <h2 id="temp"></h2>
+  
+  <img alt="weather-image" id="weather-img" class="image-responsive">
+
+  <div class="flex-container">
+    <div class="flex-item">
+      <h3>Sunrise</h3>
+      <h4 id="sunrise"></h4>
+    </div>
+    <div class="flex-item">
+      <h3>Sunset</h3>
+      <h4 id="sunset"></h4>
+    </div>  
+  </div>
+  
+    <table id="weather-info">
+      <tr>
+        <td>Wind Speed</td>
+        <td id="wind_speed"></td>
+      </tr>
+      <tr>
+        <td>Humidity</td>
+        <td id="humidity"></td>
+      </tr>
+      <tr>
+        <td>Pressure</td>
+        <td id="pressure"></td>
+      </tr>
+  </table>
+
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

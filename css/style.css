@@ -1,0 +1,62 @@
+#weather-img
+{
+  width:200px;
+  height:200px;
+  margin:0.3% 0 0 15%;
+  display:none;
+}
+#temp{
+  margin-left:40%;
+}
+body {
+  color:white;
+  background: url("https://images.designtrends.com/wp-content/uploads/2015/11/30145636/Plain-Images.jpg") no-repeat center center fixed;
+  background-size:cover;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 300px;
+    height: auto; 
+  margin:0  0 0 5%;
+}
+
+.flex-item {
+    width: 150px;
+    height: auto;
+    margin: 10px 40px 0px 40px;
+    padding:2px;
+}
+#weather-info{
+  float:right;
+  margin: -25% 0 0 0;
+}
+td {
+  width:250px;
+  height:auto;
+  padding: 10px;
+  font-size:25px;
+}
+#header{
+  margin: 10px 0px 50px 0px;
+}
+@media screen and (max-width: 767px)  {
+  #weather-info {
+    clear:both;
+    margin:10% 0 0 0;
+    width:100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+   #weather-info {
+    float:right;
+  margin: -30% 0 0 0%; 
+  }
+  td {
+  width:150px;
+  height:auto;
+  padding: 10px;
+  font-size:20px;
+}
+}
